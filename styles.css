@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'Young Serif';
+    font-family: 'YoungSerif';
     src: url(fonts/young-serif/YoungSerif-Regular.ttf) format('YoungSerif');
        
     font-weight: normal;
@@ -43,7 +43,7 @@ body {
     height: auto;
     border-radius: 1.5rem;
     padding: 2.4rem;
-    font-family: "Young Serif", sans-serif;
+    font-family: "YoungSerif", sans-serif;
     color: hsl(24, 5%, 18%);
 }
 img {
