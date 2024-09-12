@@ -1,0 +1,133 @@
+@font-face {
+    font-family: 'Young Serif';
+    src: url(fonts/young-serif/YoungSerif-Regular.ttf) format('YoungSerif');
+       
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Outfit';
+    src: url(fonts/outfit/Outfit-VariableFont_wght.ttf) format('Outfit');
+       
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+:root {
+    -White: hsl(0, 0%, 100%);
+    -Stone100: hsl(30, 54%, 90%);
+    -Stone150: hsl(30, 18%, 87%);
+    -Stone600: hsl(30, 10%, 34%);
+    -Stone900: hsl(24, 5%, 18%);
+    -Brown800: hsl(14, 45%, 36%);
+    -Rose800: hsl(332, 51%, 32%);
+    -Rose50: hsl(330, 100%, 98%);
+}
+
+html {
+   background-color: hsl(30, 54%, 90%);   
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    padding-top: 6.875rem;
+}
+
+body {
+    background-color: hsl(0, 0%, 100%);
+    width: 40.75rem;
+    height: auto;
+    border-radius: 1.5rem;
+    padding: 2.4rem;
+    font-family: "Young Serif", sans-serif;
+    color: hsl(24, 5%, 18%);
+}
+img {
+    width: 40.75rem;
+    height: auto;
+    border-radius: 0.75rem;
+}
+header  h1 {
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: hsl(24, 5%, 18%);
+}
+ p {
+    font-size: 0.875rem;
+}
+
+section {
+    background-color: hsl(330, 100%, 98%);
+    margin-top: 2.25rem;
+    padding-top: 0.375rem;
+    padding-left: 1.5rem;
+    font-family: 'Outfit', sans-serif;
+}
+
+ section h2 {
+    color: hsl(14, 45%, 36%);
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+section li {
+    
+    padding-left: 1rem;
+    padding-bottom: 0.75rem;
+    margin-left: -0.875rem;
+    font-size: 1.25rem;
+}
+
+h3 {
+    color: hsl(332, 51%, 32%);
+    font-size: 27px;
+    font-weight: 400;
+    padding-top: 20px;
+
+}
+
+main  li {
+    margin-left: -1.125rem;
+    margin-top: -0.375rem;
+    padding-left: 1rem;
+    padding-bottom: 1.0625rem;
+    font-size: 0.9375rem;
+}
+
+main ul, ol {
+    border-bottom: solid 1px hsl(30, 10%, 34%);
+    padding-bottom: 0.625rem;
+    margin-bottom: -0.875rem;
+}
+
+main ul li::marker, main ol li::marker{
+    color: hsl(14, 45%, 36%);
+}
+
+ul {
+    list-style: square;
+}
+
+table {
+    width: 100%;
+    font-size: 0.875rem;
+}
+
+th {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    border-bottom: solid 1px hsl(30, 10%, 34%);
+}
+tr :first-child {
+    padding-left: 1.875rem;
+    width: 50%;
+}
+
+tr :last-child {
+    color: hsl(14, 45%, 36%);
+    width: 50%
+}
